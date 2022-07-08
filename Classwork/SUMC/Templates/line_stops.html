@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+   <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+   <script>
+     $(document).ready( function () {
+       var mytable = $('#stops').DataTable({
+         paging: false,
+         ordering: false,
+         info: false
+       });
+       $("#direction").checkboxradio();
+       $("#line").selectmenu({
+        change : function(event, ui) {
+        var is_direct = 0;
+        if($("#direction").is(':checked')) is_direct = 1;
+            $.ajax({
+                url: "/Stops/Time/" + ui.item.value + "/" + is_direct,
+                type: "GET",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    table_data = []
+                    data['lines'].forEach(row => {
+                        row_data = []
+                        row_data.push(row['Name']);
+                        table_data.push(row_data);
+                    });
+                    console.log(table_data);
+                    mytable.rows().clear().draw();
+                    mytable.rows.add(table_data).draw();
+                },
+                error: function(error){
+                     console.log("Error:");
+                     console.log(error);
+                }
+            });
+        }
+      });
+     } );
+
+   </script>
+
+    <style>
+      header{
+          width: 100%;
+          height: 100px;
+          background-color: #26BB43;
+          text-align: center;
+          position: relative;
+          position: fixed;
+          top: 0;
+          overflow: hidden;
+       }
+      body{
+        background-color: #ecf0f1;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 16px;
+        padding-top: 110px;
+       }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>SofBus lines</h1>
+  </header>
+  <label for="line">Line</label>
+  <select name="line" id="line">
+      {% for line in lines %}
+        <option value="{{line.id}}">{{line.line}}</option>
+      {% endfor %}
+  </select>
+  <label for="direction">Direction</label>
+  <input type="checkbox" name="direction" id="direction">
+<table id="stops" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Stop</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</body>
+</html>

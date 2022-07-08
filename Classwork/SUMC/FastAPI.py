@@ -1,6 +1,14 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 import uvicorn
 import pyodbc
+
+from typing import Union
+from pydantic import BaseModel
+from fastapi.encoders import jsonable_encoder
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import HTMLResponse
+
+templates = Jinja2Templates(directory="Templates")
 
 app = FastAPI()
 
@@ -8,6 +16,17 @@ sql_server = 'Driver={SQL Server};'\
              'Server=DESKTOP-1A39HCS\SQLEXPRESS;'\
              'Database=SUMC;'\
              'Trusted_Connection=yes;'
+
+@app.get("/web/line/stops", response_class=HTMLResponse)
+async def web_line_stops(request: Request):
+    conn = pyodbc.connect(sql_server)
+    cursor = conn.cursor()
+    cursor.execute('SELECT ID, Type, Number FROM Lines ORDER BY ID')
+    lines = []
+    for row in cursor:
+        lines.append({'id': int(row[0]), 'line': row[1]+str(row[2])})
+    return templates.TemplateResponse("line_stops.html", {"request": request, "lines": lines})
+
 
 @app.get("/Stops/Time/{line_id}/{way}")
 async def given_line_way(line_id: int, way: bool):
