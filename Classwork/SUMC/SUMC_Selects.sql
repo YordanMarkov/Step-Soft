@@ -44,3 +44,15 @@ ORDER BY
 --FROM Times 
 --GROUP BY Schedule_ID
 --HAVING COUNT(*) > 1
+
+
+SELECT l.Type, l.Number, s1.Name, s2.Name
+FROM Lines l
+LEFT JOIN Ways w ON w.Line_ID = l.ID
+LEFT JOIN Line_Stop ls ON ls.Line_ID = l.ID
+LEFT JOIN Stops s1 ON ls.Stop_ID = s1.ID --AND MAX(ls.[Order]) = s1.ID
+LEFT JOIN Stops s2 ON ls.Stop_ID = s2.ID --AND MIN(ls.[Order]) = s2.ID
+LEFT JOIN Schedules sc ON sc.Line_Stop_ID = ls.ID AND sc.Way_ID = w.ID
+LEFT JOIN Times t ON t.Schedule_ID = sc.ID
+GROUP BY s1.Name, s2.Name, s1.ID, s2.ID, l.Type, l.Number
+HAVING MIN(ls.[Order]) = s1.ID AND MAX(ls.[Order]) = s2.ID
