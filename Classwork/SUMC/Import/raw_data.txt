@@ -1,0 +1,47 @@
+<li><a href="shema/dejstvashto-metro/letishte-sofiya" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Летище София</div></a></li>
+<li><a href="shema/dejstvashto-metro/sofijska-sveta-gora" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Софийска Света гора</div></a></li>
+<li><a href="shema/dejstvashto-metro/iskarsko-shose" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Искърско шосе</div></a></li>
+<li><a href="shema/dejstvashto-metro/druzhba" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Дружба</div></a></li>
+<li><a href="shema/dejstvashto-metro/czarigradsko-shose-inter-ekspo-czentar" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Интер Експо Център – Цариградско шосе</div></a></li>
+<li><a href="shema/dejstvashto-metro/mladost-3" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;Младост III</div></a></li>
+<li><a href="shema/dejstvashto-metro/biznes-park" class="sidebar-reset"><div class=""><i class="icon-circle-blank red-link"></i>&nbsp;Бизнес парк</div></a></li>
+<li><a href="shema/dejstvashto-metro/akadamik-aleksandar-teodorov-balan" class="sidebar-reset"><div class=""><i class="icon-circle-blank red-link"></i>&nbsp;Акад. Ал. Теодоров - Балан</div></a></li>
+<li><a href="shema/dejstvashto-metro/aleksandar-malinov" class="sidebar-reset"><div class=""><i class="icon-circle-blank red-link"></i>&nbsp;Александър Малинов</div></a></li>
+<li><a href="shema/dejstvashto-metro/mladost-1" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Младост 1</div></a></li>
+<li><a href="shema/dejstvashto-metro/musagenicza" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Мусагеница</div></a></li>
+<li><a href="shema/dejstvashto-metro/g-m-dimitrov" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Г. М. Димитров</div></a></li>
+<li><a href="shema/dejstvashto-metro/zholio-kyuri" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Жолио Кюри</div></a></li>
+<li><a href="shema/dejstvashto-metro/stadion-vasil-levski" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Стадион Васил Левски</div></a></li>
+<li><a href="shema/dejstvashto-metro/sofijski-universitet-kliment-oxridski" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;СУ Св. Климент Охридски</div></a></li>
+<li><a href="shema/dejstvashto-metro/serdika" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Сердика</div></a></li>
+<li><a href="shema/dejstvashto-metro/opalchenska" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Опълченска</div></a></li>
+<li><a href="shema/dejstvashto-metro/konstantin-velichkov" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Константин Величков</div></a></li>
+<li><a href="shema/dejstvashto-metro/vardar" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Вардар</div></a></li>
+<li><a href="shema/dejstvashto-metro/zapaden-park" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Западен парк</div></a></li>
+<li><a href="shema/dejstvashto-metro/lyulin" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Люлин</div></a></li>
+<li><a href="shema/dejstvashto-metro/slivnicza" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank red-link"></i>&nbsp;Сливница</div></a></li>
+<li><a href="shema/dejstvashto-metro/obelya" class="sidebar-reset"><div class=""><i class="icon-circle-blank yellow-link"></i>&nbsp;<i class="icon-circle-blank blue-link"></i>&nbsp;Обеля</div></a></li>
+<li><a href="shema/dejstvashto-metro/lomsko-shose" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Ломско шосе</div></a></li>
+<li><a href="shema/dejstvashto-metro/beli-dunav" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Бели Дунав</div></a></li>
+<li><a href="shema/dejstvashto-metro/nadezhda" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Надежда</div></a></li>
+<li><a href="shema/dejstvashto-metro/han-kubrat" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Хан Кубрат</div></a></li>
+<li><a href="shema/dejstvashto-metro/knyaginya-mariya-luiza" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Княгиня Мария Луиза</div></a></li>
+<li><a href="shema/dejstvashto-metro/czentralna-zhp-gara" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Централна жп гара</div></a></li>
+<li><a href="shema/dejstvashto-metro/lavov-most" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Лъвов мост</div></a></li>
+<li><a href="shema/dejstvashto-metro/serdika-2" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Сердика 2</div></a></li>
+<li><a href="shema/dejstvashto-metro/ndk" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Национален дворец на културата</div></a></li>
+<li><a href="shema/dejstvashto-metro/evropejski-syuz" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Европейски съюз</div></a></li>
+<li><a href="shema/dejstvashto-metro/dzhejms-baucher" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Джеймс Баучeр</div></a></li>
+<li><a href="shema/dejstvashto-metro/vitosha" class="sidebar-reset"><div class=""><i class="icon-circle-blank blue-link"></i>&nbsp;Витоша</div></a></li>
+<li><a href="shema/dejstvashto-metro/xadzhi-dimitr" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Хаджи Димитър</div></a></li>
+<li><a href="shema/dejstvashto-metro/teatralna" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Театрална</div></a></li>
+<li><a href="shema/dejstvashto-metro/orlov-most" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Орлов мост</div></a></li>
+<li><a href="shema/dejstvashto-metro/sv.-patriarx-evtimij" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Св. Патриарх Евтимий</div></a></li>
+<li><a href="shema/dejstvashto-metro/naczionalen-dvorecz-na-kulturata" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Национален дворец на културата</div></a></li>
+<li><a href="shema/dejstvashto-metro/mediczinski-universitet" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Медицински университет</div></a></li>
+<li><a href="shema/dejstvashto-metro/blgariya" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Бул. България</div></a></li>
+<li><a href="shema/dejstvashto-metro/krasno-selo" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Бул. Цар Борис III/Красно село</div></a></li>
+<li><a href="shema/dejstvashto-metro/ovcha-kupel" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Овча Купел</div></a></li>
+<li><a href="shema/dejstvashto-metro/miziya-nbu" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Мизия/НБУ</div></a></li>
+<li><a href="shema/dejstvashto-metro/ovcha-kupel-ii" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Овча Купел II</div></a></li>
+<li><a href="shema/dejstvashto-metro/gorna-banya" class="sidebar-reset"><div class=""><i class="icon-circle-blank green-link"></i>&nbsp;Горна баня</div></a></li>        
