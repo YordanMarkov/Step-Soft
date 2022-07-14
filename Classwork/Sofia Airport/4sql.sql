@@ -16,14 +16,16 @@ BEGIN
 		BEGIN
 			SELECT f.ID, f.Departure_time,  
 			SUM(p.Seats - f.Passengers) AS "Empty seats", f.Departure_Time + CAST(f.[Delay] as DATETIME) + 
-			CAST(f.Duration as DATETIME), f.Price
+			CAST(f.Duration as DATETIME), f.Price, A1.[Name], A2.[Name]
 			FROM Flights f
 			LEFT JOIN Planes p ON f.Plane_ID = p.ID
 			LEFT JOIN Direction d ON d.[From] = f.StartDest_ID
 			LEFT JOIN Flights f2 ON d.[To] = f2.StartDest_ID
+			LEFT JOIN Airports A1 ON f.StartDest_ID = A1.ID
+			LEFT JOIN Airports A2 ON f2.StartDest_ID = A2.ID
 			WHERE @Date = CAST(f.Departure_time AS DATE) 
-			GROUP BY f.ID, f.Departure_time, f.Duration, f.Price, f.[Delay]
+			GROUP BY f.ID, f.Departure_time, f.Duration, f.Price, f.[Delay], A1.[Name], A2.[Name]
 		END
 END
-
+GO
 EXEC from_to 1, 6, 0, '2022-07-12'
